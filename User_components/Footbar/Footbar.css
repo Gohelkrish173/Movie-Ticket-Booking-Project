@@ -1,0 +1,19 @@
+
+.mfootbox{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: #C0C1CB; */
+  height: 50px;
+  color: #1a1a1a;
+}
+
+
+.foot_text{
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1C40F;
+}

@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mnavbox{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: #C0C1CB; */
+  height: 55px;
+  color: #1a1a1a;
+}
+
+.bg_color{
+  background-color: #F1C40F;
+}
+
+.fnavbox{
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.navlogo{
+  display: flex;
+  width: 150px;
+  color: #1a1a1a;
+  background-color: transparent;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.snavbox{
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  height: 90%;
+  align-items: center;
+  justify-content: end;
+}
+
+.navhome{
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 70px;
+  display: flex;
+  height: 90%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navhome:hover{
+  border: 2px solid darkcyan;
+  color: brown;
+  font-size: 19px;
+}
+
+.navls{
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 150px;
+  height: 90%;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navls:hover{
+  border: 2px solid darkcyan;
+  color: brown;
+  font-size: 19px;
+}
+
+.navprofile{
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+  border-radius: 45%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  /* background-color: chartreuse; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navprofile img{
+  width: 99%;
+  height: 99%;
+  object-fit: fill;
+  border-radius: 30px;
+}
